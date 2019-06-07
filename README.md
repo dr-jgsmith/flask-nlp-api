@@ -1,9 +1,12 @@
 # ModernAI
 
 ## Introduction
-This is a simple API for accessing machine learning (ML) tools for natural language processing (NLP) and computer vision (CV) tasks. New models and methods are being added on a daily basis for named entitiy recognition, sentiment analysis, noun-phrase extraction, image classification and more.
+This is a simple API for accessing machine learning (ML) tools for natural language processing (NLP) and computer vision (CV) tasks. 
+New models and methods are being added for named entity recognition, sentiment analysis, 
+noun-phrase extraction, image classification and more.
 
-This repo provides the base code for a Flask-Restful API that exposes various NLP and CV models. 
+This repo provides the base code for a Flask-Restful API that exposes various NLP and CV models,
+based on Spacy.io and PyTorch. 
 
 ## Installing
 Use Python 3.6+, create a directory, and cd into that directory.
@@ -11,8 +14,8 @@ Use Python 3.6+, create a directory, and cd into that directory.
 
 ```
 pip install virtualenv
-mkdir modern
-cd modern
+mkdir flask_nlp_api
+cd flask_nlp_api
 
 ```
 
@@ -46,7 +49,7 @@ pip install scipy
 
 ```
 
-We use Spacy a lot for training models and fast text processing. 
+We use Spacy a lot for training models and text processing. 
 
 
 ```
@@ -56,7 +59,7 @@ python -m spacy download en_core_web_md
 
 ```
 
-Oncce downloaded, and installed you are ready to complete the rest of the install.
+Once downloaded, and installed you are ready to complete the rest of the install.
 
 
 ```
