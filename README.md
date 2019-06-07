@@ -1,4 +1,4 @@
-# ModernAI
+# Flask-NLP-API
 
 ## Introduction
 This is a simple API for accessing machine learning (ML) tools for natural language processing (NLP) and computer vision (CV) tasks. 
