@@ -8,6 +8,8 @@ noun-phrase extraction, image classification and more.
 This repo provides the base code for a Flask-Restful API that exposes various NLP and CV models,
 based on Spacy.io and PyTorch. 
 
+Note: This is not a flask extension, simply an implementation of a system that can be used for experimenting with language processing and computer vision models. 
+
 ## Installing
 Use Python 3.6+, create a directory, and cd into that directory.
 
